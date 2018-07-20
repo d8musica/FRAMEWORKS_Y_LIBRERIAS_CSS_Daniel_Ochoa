@@ -1,0 +1,64 @@
+/*Clearfix*/
+.Clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+/*Header*/
+header{
+  background: #26a69a;
+}
+#logo{
+  padding: 1em;
+}
+.redes{
+  display: flex;
+  flex-direction: row;
+
+}
+
+/*titulos h3 nav*/
+.navtitle{
+  background-color: #26a69a;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+li{
+  border-radius: 10px;
+  background-color: #263238;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  margin: 10 auto;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: #26a69a;
+  min-height: 10%;
+  border: none;
+}
+
+
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+}

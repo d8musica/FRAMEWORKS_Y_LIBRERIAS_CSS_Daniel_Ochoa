@@ -1,0 +1,29 @@
+div{
+  /*border:2px solid white;*/
+  color: white;
+}
+
+body{
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+}
+/*
+#backgroundrow{
+  height:20vh;
+  width:100vw;
+  background:gray;
+}
+
+
+Clearfix*/
+
+.Clearfix::after{
+  content:" ";
+  clear: both;
+  display: block;
+}
+
+#logo{
+  filter:grayscale(100%);
+
+}

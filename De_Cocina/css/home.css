@@ -1,0 +1,23 @@
+
+div{
+  padding: 1em;
+  color: white;
+  text-align: justify;
+}
+#busqueda{
+  border-radius: 10px;
+}
+h4{
+  border-radius: 10px;
+  background-color: #ff5722;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+#container{
+  background-color: rgba(88, 88, 88, 0.3);
+}
+section{
+  background-image: url("../img/mujer-cocinando.jpg");
+  background-attachment: fixed;
+}
